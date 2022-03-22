@@ -1,0 +1,45 @@
+.abovetitle{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  font-weight: bold
+}
+.title{
+  position: relative;
+  top: 100px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 70px;
+  font-weight: bold
+  background-color:black;
+  color: blue;
+  animation-name: teffect;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.nav{
+  text-align: center;
+  background-color: #805A4B;
+}
+.nav{
+  text-align: center;
+}
+.navlink{
+  display: inline;
+  margin-left: 70px;
+  font-size: 30px;
+}
+
+@keyframes teffect {
+  0%  { top:-80px;}
+  25% { top:-120px);}
+  75% { top:-20px;}
+  100%{ top:-80px;}
